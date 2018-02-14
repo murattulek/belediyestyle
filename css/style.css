@@ -634,7 +634,7 @@ p.tail {
 .rotate.big {
     display: block;
     width: 450px;
-    margin: 265px 0 0 -194px;
+    margin: 265px 0 0 -198px;
     font-size: 40px;
     transform: rotate( 270deg );
 	text-align: right ;
