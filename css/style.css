@@ -193,7 +193,7 @@ label {font-weight: bold;}
   height: 48px;
   width: 270px;
   margin-left: -30px;
-  padding-left: 30px;
+  padding-right: 54px;
   cursor: pointer;
   color: white;
   font-size: 19px;
@@ -203,6 +203,7 @@ label {font-weight: bold;}
   background-repeat: no-repeat;
   background-position: center right;
   transition: 0.15s;
+  text-align: right;
 }
 .ilceler:hover {
   margin-left:0;
@@ -512,7 +513,7 @@ td, th {
 
 #modal .card-content .clearfix,
 .card.kunye .card-content .clearfix {
-  line-height: 24px;
+  line-height: 23px;
 }
 
 #modal .card-content .clearfix.bb1 {
@@ -688,6 +689,10 @@ p.tail {
 
 @media only screen and (min-width: 0) {
 html {
-    font-size: 11px;
+    font-size: 12px;
 }
 }
+.dropdown-content li {
+    line-height: 40px;
+}
+
