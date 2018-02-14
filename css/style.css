@@ -176,7 +176,9 @@ label {font-weight: bold;}
 .bottom {width: 100%;}
 .pageleft { border-radius: 0 24px 24px 0; position: fixed; z-index: 1252; left: 0px; bottom: 50%; }
 .bottomleft {    padding: 0 0 0 24px !important; } 
-
+.bottomleft > .row {
+    margin-bottom: 0px;
+}
 .ist95-logo {
   display: block;
   background-image: url("/img/Istanbul95.png");
@@ -557,7 +559,7 @@ body {
 
 .pushdown {
   position: fixed;
-  bottom: 68px;
+  bottom: 44px;
   left:78px; 
 }
 
@@ -695,4 +697,5 @@ html {
 .dropdown-content li {
     line-height: 40px;
 }
+
 
