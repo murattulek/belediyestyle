@@ -196,7 +196,7 @@ label {font-weight: bold;}
   padding-left: 30px;
   cursor: pointer;
   color: white;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 48px;
   background-image: url("/img/mpsw.png");
   background-size: 44px;
@@ -290,7 +290,7 @@ main .center-text {
   padding-top: 55px !important;
   z-index: 1;
   background-image: url("/img/mp.png");
-  background-size: 64px;
+  background-size: 51px;
   background-position: center top;
   background-repeat: no-repeat;
 }
@@ -314,7 +314,7 @@ ul.logo:after {
 ul.logo li a img {
   float: left;
   height: 37px;
-  margin:12px 24px 0 0 ;
+  margin:12px 11px 0 5px ;
 }
 
 .legend .unit, .topnav .unit {
@@ -341,7 +341,7 @@ ul.logo li a img {
   display:inline-block;
 }
 .cards .card .text {
-  font-size: 13px;
+  font-size: 11px;
   line-height: 16px;
   display:inline;
 }
@@ -366,7 +366,7 @@ ul.logo li a img {
 }
 .topnav .btn {
   padding: 0 12px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   margin: 6px;
   text-transform: none;
@@ -568,10 +568,10 @@ body {
 }
 
 .leaflet-touch .leaflet-bar a {
-  width: 40px;
-  height: 40px;
-  line-height: 36px;
-  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  line-height: 29px;
+  font-size: 26px;
 }
 
 .leaflet-bar a:hover {
