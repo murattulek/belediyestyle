@@ -194,7 +194,7 @@ label {font-weight: bold;}
   display: block;
   height: 48px;
   width: 270px;
-  margin-left: -30px;
+  margin-left: -60px;
   padding-right: 54px;
   cursor: pointer;
   color: white;
@@ -208,7 +208,7 @@ label {font-weight: bold;}
   text-align: right;
 }
 .ilceler:hover {
-  margin-left:0;
+  margin-left:-30px;
   transition: 0.25s;
 }
 
@@ -323,7 +323,7 @@ ul.logo li a img {
 .legend .unit, .topnav .unit {
   display:inline-block;
   overflow: visible;
-  padding: 8px;
+  padding: 6px 12px;
   vertical-align: top;
   line-height: 12px;
 }
@@ -438,9 +438,9 @@ td, th {
 
 .card.genel {
   position: fixed;
-  top: 105px;
+  top: 100px;
   right: 67px;
-  width: 440px;
+  width: 360px;
   height: 42px;
   background-color: #999999;
 }
@@ -470,9 +470,10 @@ td, th {
 
 .card.kunye {
   position: fixed;
-  top: 150px;
+  top: 140px;
   right: 67px;
-  width: 440px;
+  width: 360px;
+  padding-bottom: 20px;
   background-color: rgba(255,255,255,0.85);
 }
 
@@ -508,7 +509,7 @@ td, th {
 }
 
 .card.kunye .card-content {
-  padding: 16px 24px 32px;
+  padding: 0px 24px 32px;
   overflow-y: auto;
   max-height: 480px;
 }
