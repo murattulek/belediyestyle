@@ -185,7 +185,7 @@ label {font-weight: bold;}
   background-size: cover;
   height: 40px;
   width: 216px;
-  margin: 16px 0;
+  margin: 16px -14;
   transition: 0.15s;
   cursor: pointer;
 }
@@ -218,7 +218,7 @@ label {font-weight: bold;}
 }
 
 .ist95-logo.center {
-  margin: 32px auto;
+  margin: 50px auto;
 }
 
 
@@ -561,7 +561,7 @@ body {
 .pushdown {
   position: fixed;
   bottom: 44px;
-  left:78px; 
+  left:68px; 
 }
 
 .leaflet-bar a {
