@@ -440,7 +440,7 @@ td, th {
   position: fixed;
   top: 100px;
   right: 67px;
-  width: 360px;
+  width: 370px;
   height: 42px;
   background-color: #999999;
 }
@@ -472,8 +472,8 @@ td, th {
   position: fixed;
   top: 140px;
   right: 67px;
-  width: 360px;
-  padding-bottom: 20px;
+  width: 370px;
+  padding-bottom: 0px;
   background-color: rgba(255,255,255,0.85);
 }
 
@@ -532,8 +532,8 @@ td, th {
   margin-top: 30px;
 }
 
-.leaflet-popup-content { font-size: 14px; }
-.leaflet-popup-content h6 { font-size: 18px; line-height: 24px;}
+.leaflet-popup-content { font-size: 11px; }
+.leaflet-popup-content h6 { font-size: 15px; line-height: 24px;}
 .leaflet-popup-content tbody tr { border-bottom: 1px solid #e8e8e8; }
 .leaflet-popup-content tbody tr:last-child { border-bottom: none; font-weight: bold; }
 
