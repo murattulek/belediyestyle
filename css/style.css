@@ -169,7 +169,7 @@ label {font-weight: bold;}
 }
 
 .topleft, .topright, .bottomleft, .bottomright, .bottom { position: fixed; z-index: 1200; width: calc( 100% - 108px ); }
-.topleft, .topright {top: 42px}
+.topleft, .topright {top: 28px}
 .bottomleft, .bottomright, .bottom {bottom: 32px}
 .topleft, .bottomleft {left: 48px;}
 .topright, .bottomright {right: 42px;}
@@ -440,15 +440,15 @@ td, th {
 
 .card.genel {
   position: fixed;
-  top: 100px;
-  right: 67px;
-  width: 380x;
+  top: 87px;
+  right: 65px;
+  width: 384x;
   height: 42px;
   background-color: #999999;
 }
 
 .card.genel ul {
-  margin:12px 0 0 16px;
+  margin:12px 0 0 18px;
 }
 
 .card.genel ul li {
@@ -458,7 +458,7 @@ td, th {
 }
 
 .card.genel.yard ul {
-  margin:12px 0 0 15px;
+  margin:12px 0 0 18px;
 }
 
 .card.genel.yard ul li {
@@ -472,7 +472,7 @@ td, th {
 
 .card.kunye {
   position: fixed;
-  top: 140px;
+  top: 130px;
   right: 67px;
   width: 380px;
   padding-bottom: 0px;
