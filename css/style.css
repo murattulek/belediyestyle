@@ -174,7 +174,7 @@ label {font-weight: bold;}
 .topleft, .bottomleft {left: 48px;}
 .topright, .bottomright {right: 42px;}
 .bottom {width: 100%;}
-.pageleft { border-radius: 0 24px 24px 0; position: fixed; z-index: 1252; left: 0px; bottom: 50%; }
+.pageleft { border-radius: 0 0 0 0; position: fixed; z-index: 1252; left: 0px; bottom: 50%; }
 .bottomleft {    padding: 0 0 0 24px !important; } 
 .bottomleft > .row {
     margin-bottom: 0px;
@@ -195,7 +195,7 @@ label {font-weight: bold;}
   height: 48px;
   width: 270px;
   margin-left: -60px;
-  padding-right: 54px;
+  padding-right: 0px;
   cursor: pointer;
   color: white;
   font-size: 19px;
@@ -203,9 +203,10 @@ label {font-weight: bold;}
   background-image: url("/img/mpsw.png");
   background-size: 44px;
   background-repeat: no-repeat;
-  background-position: center right;
   transition: 0.15s;
   text-align: right;
+  background-position-x: 55px;
+  background-position-y: 10px;
 }
 .ilceler:hover {
   margin-left:-30px;
@@ -289,13 +290,14 @@ body.index main.bg {
 }
 
 main .center-text {
-  font-size: 14px;
+  font-size: 15px;
   padding-top: 55px !important;
   z-index: 1;
   background-image: url("/img/mp.png");
   background-size: 51px;
   background-position: center top;
   background-repeat: no-repeat;
+
 }
 main .center-text a {
   color: #2eaae1;
@@ -692,11 +694,14 @@ p.tail {
 
 @media only screen and (min-width: 0) {
 html {
-    font-size: 12px;
+    font-size: 13px;
 }
 }
 .dropdown-content li {
     line-height: 40px;
 }
-
+.leaflet-popup-content {
+    font-size: 11px;
+    line-height: 1.2;
+}
 
