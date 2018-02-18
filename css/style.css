@@ -219,7 +219,7 @@ label {font-weight: bold;}
 }
 
 .ist95-logo.center {
-  margin: 50px auto;
+  margin: 80px auto 50px;
 }
 
 
@@ -301,7 +301,7 @@ main .center-text {
 }
 main .center-text a {
   color: #2eaae1;
-  margin-left: 14px;
+  margin: 0 14px;
 }
 
 .center-logo {
@@ -413,7 +413,7 @@ ul.logo li a img {
   padding: 0;
 }
 .topnav ul.dropdown-content li {
-  padding: 6px 12px 0;
+  padding: 0 12px;
   white-space: nowrap;
   border-bottom: 1px solid #e8e8e8;
 }
@@ -432,6 +432,7 @@ ul.logo li a img {
 td, th {
   padding: 5px;
   vertical-align: bottom;
+  font-size: 14px;
 }
 
 .card {
@@ -442,7 +443,7 @@ td, th {
   position: fixed;
   top: 87px;
   right: 65px;
-  width: 384x;
+  width: 384px;
   height: 42px;
   background-color: #999999;
 }
@@ -474,7 +475,7 @@ td, th {
   position: fixed;
   top: 130px;
   right: 67px;
-  width: 369px;
+  width: 380px;
   padding-bottom: 0px;
   background-color: rgba(255,255,255,0.85);
 }
@@ -485,7 +486,7 @@ td, th {
 
 #modal .card-header,
 .card.kunye .card-header {
-  padding: 16px 24px 8px;
+  padding: 6px 24px 8px;
 }
 
 .card.kunye .card-header h5 {
@@ -502,7 +503,7 @@ td, th {
   color:white;
   cursor:pointer;
   position:absolute;
-  top:16px;
+  top: 16px;
   right: 16px;
 }
 
@@ -535,14 +536,15 @@ td, th {
 }
 
 .leaflet-popup-content { font-size: 11px; }
-.leaflet-popup-content h6 { font-size: 15px; line-height: 24px;}
+.leaflet-popup-content h6 { font-size: 16px; line-height: 20px; text-indent: 4px;}
 .leaflet-popup-content tbody tr { border-bottom: 1px solid #e8e8e8; }
+.leaflet-popup-content tbody tr td:last-child { text-align: right; }
 .leaflet-popup-content tbody tr:last-child { border-bottom: none; font-weight: bold; }
 
 .leaflet-popup .aid {
   width:240px;
-  height: 214px;
-  line-height:22px;
+  min-height: 214px;
+  line-height: 22px;
 }
 
 .leaflet-popup .aid .clearfix:last-child {
@@ -694,16 +696,18 @@ p.tail {
 .center .sm .tw:hover { background-image: url(/img/sh-tw-bl.png); }
 
 @media only screen and (min-width: 0) {
-html {
-    font-size: 13px;
-}
+  html {
+      font-size: 14px;
+  }
 }
 .dropdown-content li {
     line-height: 40px;
 }
+
 .leaflet-popup-content {
     font-size: 12px;
     line-height: 1.3;
+    margin:8px;
 }
 .dropdown-content {
     background-color: #fff;
@@ -718,3 +722,28 @@ html {
     will-change: width, height;
 }
 
+i.material-icons {
+  display:none;
+}
+
+a.close {
+  background-image: url(/img/close.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:block;
+  width:40px;
+  height:40px;
+}
+
+.blue a.close {
+  background-image: url(/img/close-w.png);
+}
+
+[type="checkbox"].filled-in:not(:checked) + label:after {
+  border: 2px solid #b7b7b7;
+}
+
+.beyaz .left.blue-text {
+  font-size: 16px;
+  margin-top: 6px;
+}
