@@ -443,7 +443,7 @@ td, th {
   position: fixed;
   top: 87px;
   right: 65px;
-  width: 384px;
+  width: 406px;
   height: 42px;
   background-color: #999999;
 }
@@ -475,7 +475,7 @@ td, th {
   position: fixed;
   top: 130px;
   right: 67px;
-  width: 380px;
+  width: 402px;
   padding-bottom: 0px;
   background-color: rgba(255,255,255,0.85);
 }
@@ -746,4 +746,14 @@ a.close {
 .beyaz .left.blue-text {
   font-size: 16px;
   margin-top: 6px;
+}
+
+h3 {
+    font-size: 2.2rem;
+    line-height: 110%;
+    margin: 1.46rem 0 0 0;
+}
+
+.modal h1, .modal h2, .modal h3, .modal h4 {
+    margin-top: 11px;
 }
